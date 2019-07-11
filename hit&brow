@@ -1,0 +1,15 @@
+#coding:utf-8
+import random
+import thinker as tk
+import thinker.messagebox as tmsg
+
+#ボタンがクリックされたときの処理
+def BottonClick():
+    #テキスト入力欄に入力された文字列を取得
+    b=editboxl.get()
+
+    #Lesson 5-4のプログラムから判定部分を拝借
+    #４桁の数字かどうか判断する
+    isok = False
+    if len(b) !=4:
+        
